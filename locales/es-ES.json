@@ -39,6 +39,7 @@
     "play": "Jugar",
     "login": "Iniciar Sesión",
     "logout": "Cerrar Sesión",
+    "register": "Registrarse",
     "add": "Añadir",
     "delete": "Eliminar",
     "save": "Guardar",
@@ -46,7 +47,8 @@
     "browse": "Examinar",
     "download": "Descargar",
     "update": "Actualizar",
-    "refresh": "Actualizar"
+    "refresh": "Actualizar",
+    "confirm": "Confirmar"
   },
   "accounts": {
     "title": "Cuentas de Minecraft",
@@ -183,7 +185,7 @@
     "username": "Nombre de usuario",
     "password": "Contraseña",
     "remember_me": "Recordarme",
-    "forgot_password": "¿Olvidaste tu contraseña?",
+    "no_account": "No tienes cuenta?",
     "microsoft_login": "Iniciar sesión con Microsoft",
     "offline_login": "Jugar sin conexión",
     "creating_account": "Creando cuenta...",
@@ -191,7 +193,11 @@
     "login_success": "Inicio de sesión exitoso",
     "login_failed": "Error al iniciar sesión",
     "invalid_username": "Nombre de usuario inválido",
-    "username_too_long": "El nombre de usuario es demasiado largo (máximo 16 caracteres)"
+    "username_too_long": "El nombre de usuario es demasiado largo (máximo 16 caracteres)",
+    "login": "Iniciar sesión",
+    "premium": "Premium",
+    "offline_mode": "No Premium",
+    "2fa": "Introduce el código de verificación de dos pasos"
   },
   "home": {
     "welcome": "Bienvenido, {username}",
@@ -272,6 +278,11 @@
     "game_launch_error": "Error al Iniciar el Juego",
     "force_close": "Cerrar Forzadamente",
     "close_game": "Cerrar Juego",
+    "close_game_confirmation": "¿Estás seguro de que quieres cerrar el juego actual? Se perderá todo progreso no guardado",
+    "closing_game_info": "Por favor, espera mientras se cierra el juego...",
+    "game_closed": "Juego cerrado",
+    "game_closed_info": "El juego se ha cerrado correctamente",
+    "game_closed_error": "No se pudo cerrar el juego. Por favor, ciérralo manualmente",
     "game_running": "Juego Ejecutándose",
     "suggestions": "Sugerencias",
     "available_clients": "Clientes Disponibles",

@@ -39,6 +39,7 @@
     "play": "Play",
     "login": "Login",
     "logout": "Logout",
+    "register": "Register",
     "add": "Add",
     "delete": "Delete",
     "save": "Save",
@@ -46,7 +47,8 @@
     "browse": "Browse",
     "download": "Download",
     "update": "Update",
-    "refresh": "Refresh"
+    "refresh": "Refresh",
+    "confirm": "Confirm"
   },
   "accounts": {
     "title": "Minecraft Accounts",
@@ -183,7 +185,7 @@
     "username": "Username",
     "password": "Password",
     "remember_me": "Remember me",
-    "forgot_password": "Forgot your password?",
+    "no_account": "Don't have an account?",
     "microsoft_login": "Login with Microsoft",
     "offline_login": "Play offline",
     "creating_account": "Creating account...",
@@ -191,7 +193,11 @@
     "login_success": "Login successful",
     "login_failed": "Login failed",
     "invalid_username": "Invalid username",
-    "username_too_long": "Username is too long (maximum 16 characters)"
+    "username_too_long": "Username is too long (maximum 16 characters)",
+    "login": "Login",
+    "premium": "Premium",
+    "offline_mode": "Offline Mode",
+    "2fa": "Enter the two-step verification code"
   },
   "home": {
     "welcome": "Welcome, {username}",
@@ -272,6 +278,11 @@
     "game_launch_error": "Game Launch Error",
     "force_close": "Force Close",
     "close_game": "Close Game",
+    "close_game_confirmation": "Are you sure you want to close the current game? All unsaved progress will be lost.",
+    "closing_game_info": "Please wait while the game is closing...",
+    "game_closed": "Game closed",
+    "game_closed_info": "The game has been closed successfully",
+    "game_closed_error": "Could not close the game. Please close it manually.",
     "game_running": "Game Running",
     "suggestions": "Suggestions",
     "available_clients": "Available Clients",
@@ -354,7 +365,7 @@
     "add_instance": "Add instance",
     "select_instance": "Select instance",
     "play_music": "Play music",
-    "stop_music": "Mute music",
+    "mute_music": "Mute music",
     "manage_mods": "Manage mods"
   },
   "notifications": {
