@@ -101,7 +101,8 @@
     "java_cleanup_force": "Forzar limpieza",
     "java_cleanup_cancelled": "Limpieza cancelada",
     "java_game_in_progress": "Juego en Progreso",
-    "java_game_warning": "Hay un juego ejecutándose actualmente usando Java. La limpieza está bloqueada para evitar problemas con el juego en curso."
+    "java_game_warning": "Hay un juego ejecutándose actualmente usando Java. La limpieza está bloqueada para evitar problemas con el juego en curso.",
+    "info": "Para ejecutar Minecraft, el launcher descarga automáticamente la versión de Java compatible con cada versión de Minecraft y la almacena en la carpeta 'runtime'.<br /> Sin embargo, puedes seleccionar tu propia versión de Java personalizada si lo prefieres.<br /><br /><strong>💡 Gestión Automática:</strong><br />• Java 8: Minecraft 1.7 - 1.16.5<br />• Java 17: Minecraft 1.17 - 1.20.6<br />• Java 21: Minecraft 1.21+<br />"
   },
   "game": {
     "resolution_title": "Ajustes de resolución de Minecraft",
@@ -118,7 +119,7 @@
     "dev_tools_title": "Herramientas de desarrollo",
     "language_title": "Idioma",
     "theme_title": "Tema",
-    "behavior_title": "Comportamiento del launcher",
+    "behavior_title": "Comportamiento del launcher al iniciar el juego",
     "close_launcher": "Cerrar launcher al iniciar el juego",
     "minimize_launcher": "Minimizar launcher al iniciar el juego",
     "keep_open": "Mantener launcher abierto",

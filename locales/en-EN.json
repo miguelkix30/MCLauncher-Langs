@@ -51,7 +51,7 @@
   "accounts": {
     "title": "Minecraft Accounts",
     "discord_title": "Discord Account",
-    "add_account": "Add an account",
+    "add_account": "Add account",
     "no_accounts": "No accounts available",
     "select_account": "Select account",
     "delete_account": "Delete account",
@@ -101,7 +101,8 @@
     "java_cleanup_force": "Force cleanup",
     "java_cleanup_cancelled": "Cleanup cancelled",
     "java_game_in_progress": "Game in Progress",
-    "java_game_warning": "There is a game currently running using Java. Cleanup is blocked to prevent issues with the ongoing game."
+    "java_game_warning": "There is a game currently running using Java. Cleanup is blocked to prevent issues with the ongoing game.",
+    "info": "To run Minecraft, the launcher automatically downloads the compatible Java version for each Minecraft version and stores it in the 'runtime' folder.<br /> However, you can select your own custom Java version if you prefer.<br /><br /><strong>💡 Automatic Management:</strong><br />• Java 8: Minecraft 1.7 - 1.16.5<br />• Java 17: Minecraft 1.17 - 1.20.6<br />• Java 21: Minecraft 1.21+<br />"
   },
   "game": {
     "resolution_title": "Minecraft Resolution Settings",
