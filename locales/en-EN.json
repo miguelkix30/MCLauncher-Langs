@@ -102,11 +102,21 @@
     "java_cleanup_cancelled": "Cleanup cancelled",
     "java_game_in_progress": "Game in Progress",
     "java_game_warning": "There is a game currently running using Java. Cleanup is blocked to prevent issues with the ongoing game.",
-    "info": "To run Minecraft, the launcher automatically downloads the compatible Java version for each Minecraft version and stores it in the 'runtime' folder.<br> However, you can select your own custom Java version if you prefer.<br><br>💡 Automatic Management:<br>• Java 8: Minecraft 1.7 - 1.16.5<br>• Java 17: Minecraft 1.17 - 1.20.6<br>• Java 21: Minecraft 1.21+<br>"
+    "info": "To run Minecraft, the launcher automatically downloads the compatible Java version for each Minecraft version and stores it in the 'runtime' folder.<br> However, you can select your own custom Java version if you prefer.<br><br>💡 Automatic Management:<br>• Java 8: Minecraft 1.7 - 1.16.5<br>• Java 17: Minecraft 1.17 - 1.20.6<br>• Java 21: Minecraft 1.21+<br>",
+    "java_path_launcher": "Use the Java version provided by the launcher",
+    "java_management": "Automatic Java Management",
+    "java_management_info": "The launcher automatically downloads the compatible Java version for each Minecraft version. Installations are stored in the 'runtime' folder and reused automatically.",
+    "java_runtime_directory_title": "Runtime Directory",
+    "java_runtime_directory_not_initialized": "Not initialized",
+    "java_installed_versions_title": "Installed Java Versions",
+    "java_installed_versions_compatiblewith": "Compatible with",
+    "java_delete_installations": "Delete Java installations",
+    "java_installed_refresh": "Refresh list",
+    "java_no_versions_installed": "There are no Java installations, the launcher will automatically download the necessary Java version when starting the game."
   },
   "game": {
     "resolution_title": "Minecraft Resolution Settings",
-    "resolution_info": "Configure the resolution of the game window",
+    "resolution_info": "Set the resolution for the game that fits your screen. By default, the game starts at 854 x 480.<br>You can modify this value to achieve optimal gameplay comfort. The ideal resolution is 1280 x 720.",
     "width": "Width",
     "height": "Height",
     "fullscreen": "Fullscreen",
@@ -121,10 +131,9 @@
     "theme_title": "Theme",
     "behavior_title": "Launcher Behavior",
     "close_launcher": "Close launcher when starting game",
-    "minimize_launcher": "Minimize launcher when starting game",
+    "close_all": "Close the game and the launcher when closing the launcher",
     "keep_open": "Keep launcher open",
     "performance_mode": "Performance mode",
-    "performance_mode_info": "Reduces animations to improve performance",
     "performance_mode_enabled": "Performance mode enabled",
     "performance_mode_disabled": "Performance mode disabled",
     "performance_mode_restart": "To fully apply performance mode changes, it is necessary to restart the launcher. This will remove all transitions and visual effects to improve performance.",
@@ -155,7 +164,22 @@
     "operation_failed": "Operation failed",
     "directory_size": "Directory size",
     "calculating_size": "Calculating size...",
-    "size_calculation_error": "Error calculating size"
+    "size_calculation_error": "Error calculating size",
+    "enable_performance_mode": "Enable performance mode",
+    "performance_mode_info": "Performance mode disables video backgrounds and visual transitions to reduce resource consumption.",
+    "download_info": "Maximum number of files that can be downloaded simultaneously. A higher number can speed up downloads but may also cause issues on slow connections.",
+    "default": "Default",
+    "data_management_info": "These options allow you to reset the configuration or delete all launcher data. Use them with caution.",
+    "behavior_info": "Configure how the launcher behaves when starting the game. You can choose to close or minimize the launcher, or keep it open.",
+    "dev_tools_info": "Useful tools for diagnosis and development."
+  },
+  "info_tab": {
+    "credits": "Credits",
+    "terms": "Terms of Service",
+    "main_developer": "Main Developer",
+    "base_developer": "Base Developer",
+    "last_update": "Last Update",
+    "terms_error": "There has been an error loading the terms of service. Please try again later."
   },
   "login": {
     "welcome": "Welcome",
@@ -237,7 +261,8 @@
     "force_close": "Force Close",
     "close_game": "Close Game",
     "game_running": "Game Running",
-    "suggestions": "Suggestions"
+    "suggestions": "Suggestions",
+    "available_clients": "Available Clients"
   },
   "messages": {
     "welcome": "Welcome",
@@ -298,11 +323,16 @@
   "tooltips": {
     "add_account": "Add new Minecraft account",
     "delete_account": "Delete this account",
-    "settings": "Open settings",
+    "settings": "Settings",
     "minimize": "Minimize window",
     "close": "Close application",
     "refresh": "Refresh",
-    "help": "Help"
+    "help": "Help",
+    "add_instance": "Add instance",
+    "select_instance": "Select instance",
+    "play_music": "Play music",
+    "stop_music": "Mute music",
+    "manage_mods": "Manage mods"
   },
   "notifications": {
     "account_added": "Account added successfully",
