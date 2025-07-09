@@ -170,7 +170,8 @@
     "default": "Por defecto",
     "data_management_info": "Estas opciones te permiten reiniciar la configuración o eliminar todos los datos del launcher. Úsalas con precaución.",
     "behavior_info": "Puedes elegir si el launcher se cierra automáticamente o permanece abierto al iniciar el juego.",
-    "dev_tools_info": "Herramientas útiles para diagnóstico y desarrollo."
+    "dev_tools_info": "Herramientas útiles para diagnóstico y desarrollo.",
+    "language_info": "Selecciona el idioma de la interfaz del launcher. Los cambios se aplicarán inmediatamente."
   },
   "info_tab": {
     "credits": "Créditos",
@@ -401,6 +402,65 @@
     "idle": "En el launcher"
   },
   "misc": {
-    "for": "para"
+    "for": "para",
+    "of": "de"
+  },
+  "mods": {
+    "title": "Mods",
+    "unselected": "Selecciona el cliente a modificar:",
+    "select_client": "Seleccionar cliente...",
+    "list_title": "Lista de Mods disponibles...",
+    "no_mods": "No hay mods opcionales disponibles para este cliente."
+  },
+  "skins": {
+    "title": "Editor de Skins",
+    "library_title": "Biblioteca de Skins",
+    "preview_title": "Vista previa",
+    "idle": "Estático",
+    "walk": "Caminar",
+    "run": "Correr",
+    "select_skin": "Selecciona una skin",
+    "apply_skin": "Aplicar skin",
+    "no_selected_skin_error": "No hay ninguna skin seleccionada",
+    "no_selected_account_error": "No hay ninguna cuenta seleccionada",
+    "no_selected_account_found": "No se ha encontrado la cuenta seleccionada",
+    "no_account_found": "No se encontró ninguna cuenta",
+    "search_not_found": "No se encontraron skins con:",
+    "no_skins_upload": "No hay skins guardadas. Sube tu primera skin.",
+    "upload_skin": "Subir nueva skin",
+    "delete_skin": "Eliminar skin",
+    "delete_skin_confirm": "¿Estás seguro de que deseas eliminar la skin",
+    "delete_skin_error": "Error al eliminar la skin",
+    "loading_error": "Error al cargar la skin",
+    "account_info_error": "Error al obtener la información de la cuenta",
+    "upload_png_required": "Solo se permiten archivos PNG.",
+    "upload_too_large": "El archivo es demasiado grande. El tamaño máximo permitido es de 1MB.",
+    "upload_same_name": "Ya existe una skin con el mismo nombre. Por favor, elige otro nombre.",
+    "upload_size_error": "Las dimensiones de la skin deben ser 64x64 o 64x32 píxeles.",
+    "processing_skin": "Procesando skin...",
+    "processing_skin_info": "Guardando y configurando la skin...",
+    "upload_success": "Skin subida correctamente",
+    "upload_error": "Error al guardar la skin:",
+    "upload_invalid_file": "El archivo no es una imagen válida.",
+    "read_error": "Error al leer el archivo.",
+    "skin_name": "Nombre de la skin",
+    "skin_name_description": "Introduce un nombre para la skin (máx. 16 caracteres):",
+    "skin_name_tip": "El nombre ayudará a identificar tu skin en la biblioteca.",
+    "account": "Cuenta",
+    "current_skin": "Skin actual",
+    "minecraft_skin": "Skin de Minecraft",
+    "skin": "Skin",
+    "unknown": "Desconocida",
+    "xbox_requirement": "Solo las cuentas de Xbox/Microsoft pueden cambiar de skin.",
+    "applying_skin": "Aplicando skin...",
+    "preparing_skin": "Preparando skin...",
+    "connecting_to_service": "Conectando con los servicios...",
+    "applying_changes": "Aplicando cambios...",
+    "apply_success": "¡Skin aplicada correctamente a tu cuenta de Minecraft!",
+    "apply_unknown_error": "Error desconocido al aplicar la skin.",
+    "error": "Error",
+    "success": "Éxito",
+    "information": "Información",
+    "selected_for": "Seleccionada para:"
   }
 }

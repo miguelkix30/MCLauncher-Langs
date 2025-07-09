@@ -1,6 +1,5 @@
 {
   "launcher": {
-    "title": "Miguelki Network MC Launcher",
     "loading": "Loading...",
     "error": "Error",
     "success": "Success",
@@ -170,7 +169,8 @@
     "default": "Default",
     "data_management_info": "These options allow you to reset the configuration or delete all launcher data. Use them with caution.",
     "behavior_info": "Configure how the launcher behaves when starting the game. You can choose to close or minimize the launcher, or keep it open.",
-    "dev_tools_info": "Useful tools for diagnosis and development."
+    "dev_tools_info": "Useful tools for diagnosis and development.",
+    "language_info": "Select the language for the launcher interface. Changes will be applied immediately."
   },
   "info_tab": {
     "credits": "Credits",
@@ -401,6 +401,65 @@
     "idle": "In the launcher"
   },
   "misc": {
-    "for": "for"
+    "for": "for",
+    "of": "of"
+  },
+  "mods": {
+    "title": "Mods",
+    "unselected": "Select the client to modify:",
+    "select_client": "Select client...",
+    "list_title": "List of available mods...",
+    "no_mods": "There are no optional mods available for this client."
+  },
+  "skins": {
+    "title": "Skins",
+    "library_title": "Skin Library",
+    "preview_title": "Preview",
+    "idle": "Idle",
+    "walk": "Walking",
+    "run": "Running",
+    "select_skin": "Select Skin",
+    "apply_skin": "Apply Skin",
+    "no_selected_skin_error": "No skin selected",
+    "no_selected_account_error": "No account selected",
+    "no_selected_account_found": "Selected account not found",
+    "no_account_found": "No account found",
+    "search_not_found": "No skins found with:",
+    "no_skins_upload": "No saved skins. Upload your first skin.",
+    "upload_skin": "Upload new skin",
+    "delete_skin": "Delete skin",
+    "delete_skin_confirm": "Are you sure you want to delete the skin",
+    "delete_skin_error": "Error deleting skin",
+    "loading_error": "Error loading skin",
+    "account_info_error": "Error getting account information",
+    "upload_png_required": "Only PNG files are allowed.",
+    "upload_too_large": "File is too large. Maximum allowed size is 1MB.",
+    "upload_same_name": "A skin with the same name already exists. Please choose another name.",
+    "upload_size_error": "Skin dimensions must be 64x64 or 64x32 pixels.",
+    "processing_skin": "Processing skin...",
+    "processing_skin_info": "Saving and configuring skin...",
+    "upload_success": "Skin uploaded successfully",
+    "upload_error": "Error saving skin:",
+    "upload_invalid_file": "The file is not a valid image.",
+    "read_error": "Error reading file.",
+    "skin_name": "Skin name",
+    "skin_name_description": "Enter a name for the skin (max. 16 characters):",
+    "skin_name_tip": "The name will help identify your skin in the library.",
+    "account": "Account",
+    "current_skin": "Current skin",
+    "minecraft_skin": "Minecraft skin",
+    "skin": "Skin",
+    "unknown": "Unknown",
+    "xbox_requirement": "Only Xbox/Microsoft accounts can change skins.",
+    "applying_skin": "Applying skin...",
+    "preparing_skin": "Preparing skin...",
+    "connecting_to_service": "Connecting to services...",
+    "applying_changes": "Applying changes...",
+    "apply_success": "Skin successfully applied to your Minecraft account!",
+    "apply_unknown_error": "Unknown error applying skin.",
+    "error": "Error",
+    "success": "Success",
+    "information": "Information",
+    "selected_for": "Selected for:"
   }
 }
