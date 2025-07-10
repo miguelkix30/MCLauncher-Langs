@@ -1,6 +1,7 @@
 {
   "launcher": {
     "loading": "Cargando...",
+    "starting": "Iniciando launcher...",
     "error": "Error",
     "success": "Éxito",
     "warning": "Advertencia",
@@ -188,7 +189,6 @@
     "no_account": "No tienes cuenta?",
     "microsoft_login": "Iniciar sesión con Microsoft",
     "offline_login": "Jugar sin conexión",
-    "creating_account": "Creando cuenta...",
     "logging_in": "Iniciando sesión...",
     "login_success": "Inicio de sesión exitoso",
     "login_failed": "Error al iniciar sesión",
@@ -197,7 +197,16 @@
     "login": "Iniciar sesión",
     "premium": "Premium",
     "offline_mode": "No Premium",
-    "2fa": "Introduce el código de verificación de dos pasos"
+    "2fa": "Introduce el código de verificación de dos pasos",
+    "protected_account": "Cuenta protegida",
+    "protected_account_info": "Esta cuenta está protegida y no puede ser usada en este dispositivo. Por favor, contacta con el administrador si crees que esto es un error.",
+    "user_too_short": "El nombre de usuario es demasiado corto (mínimo 3 caracteres)",
+    "user_with_space": "Su nombre de usuario no debe contener espacios",
+    "truncated_username": "Nombre truncado",
+    "truncated_username_info": "Tu nombre de usuario era demasiado largo y fue truncado a:",
+    "truncated_username_confirm": "¿Deseas continuar con este nombre?",
+    "error_creating_account": "Ocurrió un error al crear la cuenta offline. Intentalo de nuevo.",
+    "logging_in_microsoft": "Iniciando sesión con Microsoft..."
   },
   "home": {
     "welcome": "Bienvenido, {username}",
@@ -296,7 +305,10 @@
     "playing": "Jugando...",
     "java_obtaining_checksum": "Obteniendo checksum para",
     "java_integrity_check": "Verificando integridad para Java",
-    "installed_successfully": "instalado correctamente"
+    "installed_successfully": "instalado correctamente",
+    "error_loading_instances": "Error al cargar las instancias",
+    "error_loading_instances_info": "Por favor, inténtalo de nuevo más tarde.",
+    "loading_instances": "Cargando clientes disponibles..."
   },
   "messages": {
     "welcome": "Bienvenido",
@@ -343,16 +355,22 @@
   },
   "setup": {
     "welcome_title": "Configuración inicial",
-    "welcome_message": "Bienvenido al launcher. Vamos a configurar algunas opciones básicas.",
-    "step_1": "Configuración de memoria",
-    "step_2": "Configuración de Java", 
-    "step_3": "Configuración de juego",
-    "step_4": "Configuración final",
+    "welcome_message": "Bienvenido! Vamos a configurar algunos parámetros para optimizar tu experiencia.",
+    "step_1": "Modo de rendimiento",
+    "step_2": "Configuración de Memoria RAM", 
+    "step_3": "Comportamiento del launcher",
+    "performance_info": "Activa esta opción para mejorar el rendimiento en equipos con recursos limitados.",
     "memory_info": "Configura la cantidad de memoria RAM que el juego podrá utilizar",
-    "java_info": "Selecciona la versión de Java que quieres usar",
-    "game_info": "Configura las opciones básicas del juego",
-    "final_info": "Revisa y confirma tu configuración",
-    "finish_setup": "Finalizar configuración"
+    "enable_performance_mode": "Activar modo de rendimiento",
+    "performance_note": "Esta opción desactiva los fondos de video animados y las transiciones visuales para reducir el consumo de recursos.",
+    "total_ram": "Memoria RAM Total: ",
+    "minimum_ram": "RAM Mínima: ",
+    "maximum_ram": "RAM Máxima: ",
+    "finish_setup": "Finalizar configuración",
+    "launcher_behavior": "Selecciona cómo quieres que se comporte el launcher al iniciar el juego:",
+    "close_launcher": "Cerrar el launcher después de iniciar el juego (Recomendado)",
+    "keep_launcher_open": "Mantener abierto el launcher",
+    "close_all": "Cerrar el juego al cerrar el launcher"
   },
   "tooltips": {
     "add_account": "Añadir nueva cuenta de Minecraft",
@@ -461,5 +479,51 @@
     "success": "Éxito",
     "information": "Información",
     "selected_for": "Seleccionada para:"
+  },
+  "mklib": {
+    "report_title": "Enviando reporte de rendimiento...",
+    "report_info": "Por favor, espera un momento...",
+    "report_success": "Reporte de rendimiento enviado satisfactoriamente",
+    "report_thanks": "Muchas gracias por enviar el reporte de rendimiento! Investigaremos el problema lo antes posible.",
+    "report_error": "Error al enviar el reporte de rendimiento",
+    "report_error_info": "Ha ocurrido un error al enviar el reporte de rendimiento. Por favor, inténtalo de nuevo más tarde o contacta con soporte.",
+    "ban_game_termination": "El cliente ha sido cerrado",
+    "ban_game_termination_info": "El cliente ha sido cerrado debido a que el dispositivo ha sido baneado.",
+    "support_game_termination": "El cliente ha sido cerrado",
+    "support_game_termination_info": "El equipo de soporte ha cerrado tu instancia.",
+    "support_config_deletion": "Reiniciando configuración",
+    "support_config_deletion_info": "El equipo de soporte está reiniciando la configuración del launcher. El launcher se reiniciará automáticamente en unos momentos.",
+    "support_data_deletion": "Eliminando datos",
+    "support_data_deletion_info": "El equipo de soporte está eliminando todos los datos del launcher. El launcher se reiniciará automáticamente en unos momentos.",
+    "support_capture": "Capturando ventana",
+    "support_capture_info": "El equipo de soporte está tomando una captura de la aplicación para ayudar a diagnosticar problemas.",
+    "report_prompt": "¿Enviar reporte de rendimiento?",
+    "report_prompt_info": "Si estas experimentando problemas con el launcher, puedes enviar un reporte de rendimiento para ayudarnos a solucionar el problema. <br><br>Quieres enviar un reporte de rendimiento?",
+    "patch_toolkit_prompt": "¿Ejecutar Toolkit de Parches?",
+    "patch_toolkit_prompt_info": "El Toolkit de Parches es una herramienta avanzada que permite resolver problemas a la hora de ejecutar el juego. <br>Ejecuta esta herramienta SOLO si tienes problemas para iniciar el juego.<br>Quieres ejecutar el Toolkit de Parches?<br>Si es así, se descargará y parcheará el juego de forma automática."
+  },
+  "terms": {
+    "title": "Bienvenido a el launcher",
+    "content": "Antes de continuar, acepta los términos y condiciones para poder utilizar el software. De lo contrario, el launcher se cerrará y no podrás utilizarlo hasta que los aceptes.",
+    "reject": "Rechazar y cerrar launcher",
+    "read_all": "Lee todos los términos antes de aceptar"
+  },
+  "verification": {
+    "discord_verification": "Verificación de Discord",
+    "discord_authentication_error": "Error de autenticación",
+    "discord_verification_error": "Error al verificar la cuenta de discord",
+    "discord_authentication_error_info": "No se ha podido verificar la sesión de Discord. <br><br>¿Quieres volver a intentarlo?",
+    "discord_verification_error_info": "No se ha podido verificar la cuenta de Discord. <br><br>¿Quieres intentarlo de nuevo?",
+    "discord_verification_info": "Para poder acceder al launcher debes iniciar sesión con tu cuenta de Discord y estar en el servidor. <br><br>¿Quieres iniciar sesión ahora?",
+    "discord_waiting": "Esperando a la autorización...",
+    "discord_verifying": "Verificando cuenta de Discord...",
+    "please_wait": "Por favor, espera un momento...",
+    "discord_membership_error_info": "No se ha podido verificar la membresía en el servidor de Discord. <br><br>¿Quieres intentarlo de nuevo?",
+    "discord_membership_missing_with_invite": "No se ha detectado que seas miembro del servidor de Discord. Para poder utilizar el launcher debes ser miembro del servidor. <br><br>¿Quieres unirte ahora? Se abrirá una ventana en tu navegador.",
+    "discord_membership_missing": "No se ha detectado que seas miembro del servidor de Discord. Para poder utilizar el launcher debes ser miembro del servidor. <br><br>Quieres volver a iniciar el sistema de verificación?"
+  },
+  "refresh": {
+    "platform": "Plataforma",
+    "user": "Usuario"
   }
 }

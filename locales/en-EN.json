@@ -2,6 +2,7 @@
   "launcher": {
     "loading": "Loading...",
     "error": "Error",
+    "starting": "Starting launcher...",
     "success": "Success",
     "warning": "Warning",
     "info": "Information",
@@ -188,7 +189,6 @@
     "no_account": "Don't have an account?",
     "microsoft_login": "Login with Microsoft",
     "offline_login": "Play offline",
-    "creating_account": "Creating account...",
     "logging_in": "Logging in...",
     "login_success": "Login successful",
     "login_failed": "Login failed",
@@ -197,7 +197,16 @@
     "login": "Login",
     "premium": "Premium",
     "offline_mode": "Offline Mode",
-    "2fa": "Enter the two-step verification code"
+    "2fa": "Enter the two-step verification code",
+    "protected_account": "Protected Account",
+    "protected_account_info": "This account is protected and cannot be used on this device. Please contact the administrator if you think this is an error.",
+    "user_too_short": "Username is too short (minimum 3 characters)",
+    "user_with_space": "Your username should not contain spaces",
+    "truncated_username": "Truncated Username",
+    "truncated_username_info": "Your username was too long and has been truncated to:",
+    "truncated_username_confirm": "Do you want to continue with this name?",
+    "error_creating_account": "An error occurred while creating the offline account. Please try again.",
+    "logging_in_microsoft": "Logging in with Microsoft..."
   },
   "home": {
     "welcome": "Welcome, {username}",
@@ -296,7 +305,10 @@
     "playing": "Playing...",
     "java_obtaining_checksum": "Obtaining checksum for Java",
     "java_integrity_check": "Verifying integrity for Java",
-    "installed_successfully": "installed successfully"
+    "installed_successfully": "installed successfully",
+    "error_loading_instances": "Error loading instances",
+    "error_loading_instances_info": "Please try again later.",
+    "loading_instances": "Loading available clients..."
   },
   "messages": {
     "welcome": "Welcome",
@@ -343,16 +355,22 @@
   },
   "setup": {
     "welcome_title": "Initial Setup",
-    "welcome_message": "Welcome to the launcher. Let's configure some basic options.",
-    "step_1": "Memory Configuration",
-    "step_2": "Java Configuration",
-    "step_3": "Game Configuration",
-    "step_4": "Final Configuration",
+    "welcome_message": "Welcome! Let's configure some parameters to optimize your experience.",
+    "step_1": "Performance Mode",
+    "step_2": "Memory Configuration",
+    "step_3": "Launcher Behavior",
+    "performance_info": "Enable this option to improve performance on low-resource systems.",
     "memory_info": "Configure the amount of RAM memory that the game can use",
-    "java_info": "Select the Java version you want to use",
-    "game_info": "Configure basic game options",
-    "final_info": "Review and confirm your configuration",
-    "finish_setup": "Finish setup"
+    "enable_performance_mode": "Enable performance mode",
+    "performance_note": "This option disables animated video backgrounds and visual transitions to reduce resource consumption.",
+    "total_ram": "Total RAM: ",
+    "minimum_ram": "Minimum RAM: ",
+    "maximum_ram": "Maximum RAM: ",
+    "finish_setup": "Finish Setup",
+    "launcher_behavior": "Select how you want the launcher to behave when starting the game:",
+    "close_launcher": "Close the launcher after starting the game (Recommended)",
+    "keep_launcher_open": "Keep the launcher open",
+    "close_all": "Close the game and the launcher when closing the launcher"
   },
   "tooltips": {
     "add_account": "Add new Minecraft account",
@@ -461,5 +479,51 @@
     "success": "Success",
     "information": "Information",
     "selected_for": "Selected for:"
+  },
+  "mklib": {
+    "report_title": "Sending performance report...",
+    "report_info": "Please wait a moment...",
+    "report_success": "Performance report sent successfully",
+    "report_thanks": "Thank you very much for sending the performance report! We will investigate the issue as soon as possible.",
+    "report_error": "Error sending performance report",
+    "report_error_info": "An error occurred while sending the performance report. Please try again later or contact support.",
+    "ban_game_termination": "The client has been closed",
+    "ban_game_termination_info": "The client has been closed because the device has been banned.",
+    "support_game_termination": "The client has been closed",
+    "support_game_termination_info": "The support team has closed your instance.",
+    "support_config_deletion": "Resetting configuration",
+    "support_config_deletion_info": "The support team is resetting the launcher configuration. The launcher will restart automatically in a few moments.",
+    "support_data_deletion": "Deleting data",
+    "support_data_deletion_info": "The support team is deleting all launcher data. The launcher will restart automatically in a few moments.",
+    "support_capture": "Capturing window",
+    "support_capture_info": "The support team is taking a screenshot of the application to help diagnose issues.",
+    "report_prompt": "Send performance report?",
+    "report_prompt_info": "If you are experiencing problems with the launcher, you can send a performance report to help us solve the issue. <br><br>Do you want to send a performance report?",
+    "patch_toolkit_prompt": "Run Patch Toolkit?",
+    "patch_toolkit_prompt_info": "The Patch Toolkit is an advanced tool that allows solving problems when running the game. <br>Run this tool ONLY if you have problems starting the game.<br>Do you want to run the Patch Toolkit?<br>If so, it will automatically download and patch the game."
+  },
+  "terms": {
+    "title": "Welcome to the launcher",
+    "content": "Before continuing, please accept the terms and conditions to use the software. Otherwise, the launcher will close and you will not be able to use it until you accept them.",
+    "reject": "Reject and close launcher",
+    "read_all": "Read all terms before accepting"
+  },
+  "verification": {
+    "discord_verification": "Discord Verification",
+    "discord_authentication_error": "Authentication error",
+    "discord_verification_error": "Error verifying Discord account",
+    "discord_authentication_error_info": "Could not verify Discord session. <br><br>Do you want to try again?",
+    "discord_verification_error_info": "Could not verify Discord account. <br><br>Do you want to try again?",
+    "discord_verification_info": "To access the launcher you must log in with your Discord account and be on the server. <br><br>Do you want to log in now?",
+    "discord_waiting": "Waiting for authorization...",
+    "discord_verifying": "Verifying Discord account...",
+    "please_wait": "Please wait a moment...",
+    "discord_membership_error_info": "Could not verify membership on the Discord server. <br><br>Do you want to try again?",
+    "discord_membership_missing_with_invite": "You are not detected as a member of the Discord server. To use the launcher you must be a server member. <br><br>Do you want to join now? A window will open in your browser.",
+    "discord_membership_missing": "You are not detected as a member of the Discord server. To use the launcher you must be a server member. <br><br>Do you want to restart the verification system?"
+  },
+  "refresh": {
+    "platform": "Platform",
+    "user": "User"
   }
 }
