@@ -6,5 +6,9 @@
   "en-EN": {
     "name": "English",
     "nativeName": "English"
+  },
+  "fr-FR": {
+    "name": "French",
+    "nativeName": "Français"
   }
 }

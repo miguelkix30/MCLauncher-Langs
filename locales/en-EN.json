@@ -139,8 +139,6 @@
     "performance_mode_restart_confirm": "Do you want to restart the launcher now?",
     "max_downloads": "Maximum simultaneous downloads",
     "language_auto": "Automatic (System)",
-    "language_spanish": "Español",
-    "language_english": "English",
     "language_changed": "Language changed",
     "language_change_message": "The language has been changed. Some changes may require restarting the application.",
     "language_change_error": "Error changing language",
@@ -158,6 +156,7 @@
     "delete_assets_progress": "Deleting assets...",
     "open_console": "Open console",
     "open_logs": "Open logs folder",
+    "data_managemnt_info": "These options allow you to reset the configuration or delete all launcher data. Use them with caution.",
     "data_management_error": "Data management error",
     "operation_completed": "Operation completed",
     "operation_failed": "Operation failed",
@@ -171,7 +170,8 @@
     "data_management_info": "These options allow you to reset the configuration or delete all launcher data. Use them with caution.",
     "behavior_info": "Configure how the launcher behaves when starting the game. You can choose to close or minimize the launcher, or keep it open.",
     "dev_tools_info": "Useful tools for diagnosis and development.",
-    "language_info": "Select the language for the launcher interface. Changes will be applied immediately."
+    "language_info": "Select the language for the launcher interface. Changes will be applied immediately.",
+    "language_select": "Select a language"
   },
   "info_tab": {
     "credits": "Credits",
@@ -227,13 +227,14 @@
     "play_button": "PLAY",
     "connecting": "Connecting...",
     "preparing_launch": "Preparing launch...",
+    "obtaining_asset_index": "Obtaining asset index...",
     "verifying_assets": "Verifying assets...",
     "copying_assets": "Copying assets...",
     "verifying_files": "Verifying files...",
     "extracting_files": "Extracting files...",
     "extracting": "Extracting",
     "downloading_natives": "Downloading natives...",
-    "verifying": "Verifying...",
+    "verifying": "Verifying",
     "downloading_mc_version": "Downloading Minecraft version",
     "downloading_assets_json": "Downloading assets JSON",
     "downloading_log4j": "Downloading Log4j...",
@@ -308,7 +309,8 @@
     "installed_successfully": "installed successfully",
     "error_loading_instances": "Error loading instances",
     "error_loading_instances_info": "Please try again later.",
-    "loading_instances": "Loading available clients..."
+    "loading_instances": "Loading available clients...",
+    "assets": "assets"
   },
   "messages": {
     "welcome": "Welcome",
@@ -370,7 +372,9 @@
     "launcher_behavior": "Select how you want the launcher to behave when starting the game:",
     "close_launcher": "Close the launcher after starting the game (Recommended)",
     "keep_launcher_open": "Keep the launcher open",
-    "close_all": "Close the game and the launcher when closing the launcher"
+    "close_all": "Close the game and the launcher when closing the launcher",
+    "step_0": "Select the language of the launcher",
+    "language_info": "Choose the language you prefer for the launcher interface. Changes will be applied immediately."
   },
   "tooltips": {
     "add_account": "Add new Minecraft account",
